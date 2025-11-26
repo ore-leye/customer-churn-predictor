@@ -1,0 +1,27 @@
+# Python & VS Code
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+env/
+*.log
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files (we'll push them ONCE for deployment, then ignore in future)
+churn_model.pkl
+model_columns.pkl
+explainer.pkl
+shap_values.pkl
+
+# Large datasets (optional – we’re using URL so no need to push)
+*.csv
